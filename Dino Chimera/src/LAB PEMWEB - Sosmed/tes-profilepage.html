@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Page | Portofolio</title>
+  <link href="../output.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f3f4f6;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-slate-200 shadow-md">
+    <div class="flex items-center px-5 h-[12vh]">
+      <div class="flex w-[50vw] items-center">
+        <!-- Logo -->
+        <div class="text-right pr-8">
+          <a class="px-5 text-5xl font-semibold" href="#">Lorem</a>
+        </div>
+        <!-- Searchbar -->
+        <div class="relative flex items-center bg-gray-300 rounded-3xl h-[5.7vh] w-[17.3vw] overflow-hidden">
+          <i class="fa-solid fa-magnifying-glass text-gray-600 pl-3 text-xl"></i>
+          <input 
+            type="text" 
+            placeholder="Cari sesuatu..." 
+            class="bg-transparent outline-none pl-3 pr-4 w-full text-gray-800 placeholder-gray-500 text-base"
+          />
+        </div>
+      </div>
+
+      <!-- Navbar -->
+      <div class="flex w-[50vw] justify-end items-center">
+        <div class="navbar text-right">
+          <a class="px-5 text-3xl" href="#">Lorem</a>
+          <a class="px-5 text-3xl" href="#">Lorem</a>
+          <a class="px-5 text-3xl" href="#">Lorem</a>
+          <a class="px-5 text-3xl" href="#">Lorem</a>
+        </div>
+        <div class="pl-8">
+          <img class="w-[3.2vw] h-[3.2vw] rounded-4xl object-cover" src="../img/sidepic.jpg" alt="hai" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="flex flex-col lg:flex-row pt-[14vh] px-5 pb-10 gap-6">
+    
+    <!-- KIRI (PROFIL) -->
+    <section class="w-full lg:w-1/2 p-6 flex flex-col items-start text-center">
+      <img src="../img/sidepic.jpg" alt="Profile" class="w-40 h-40 rounded-full object-cover shadow-md mb-4" />
+      <h2 class="text-3xl font-semibold mb-2">Rafa</h2>
+      <p class="text-gray-600 mb-4">UI/UX Designer | Game Artist | Tech Enthusiast</p>
+      <button class="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-full text-lg">Edit Profil</button>
+      
+      <div class="mt-8 text-left w-full">
+        <h3 class="text-2xl font-semibold mb-2">Tentang Saya</h3>
+        <p class="text-gray-700 leading-relaxed">
+          Aku suka mengeksplor teknologi baru dan desain antarmuka yang estetik namun fungsional.
+          Saat ini aku fokus di bidang game UI/UX dan pengembangan web.
+        </p>
+      </div>
+    </section>
+
+    <!-- KANAN (GALLERY PINTEREST STYLE) -->
+    <section class="w-full lg:w-1/2">
+      <div class="columns-2 sm:columns-3 lg:columns-3 xl:columns-4 gap-4 [column-fill:_balance]">
+        <img src="https://i.pinimg.com/736x/e0/fb/86/e0fb868b4e8cad14cb60dc9a36f3abd8.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/c7/df/ca/c7dfcaecabc05ebbebe87fc8b2a37914.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/8d/c7/32/8dc7329a2d48c2a329ea3acaa25985f9.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/e1/f3/e7/e1f3e72b6e852236af347b3837da9d48.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/c7/df/ca/c7dfcaecabc05ebbebe87fc8b2a37914.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/8d/c7/32/8dc7329a2d48c2a329ea3acaa25985f9.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/e1/f3/e7/e1f3e72b6e852236af347b3837da9d48.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/c7/df/ca/c7dfcaecabc05ebbebe87fc8b2a37914.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/8d/c7/32/8dc7329a2d48c2a329ea3acaa25985f9.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/e1/f3/e7/e1f3e72b6e852236af347b3837da9d48.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/eb/03/a1/eb03a1f9ae745f66c28728ee70c55f3c.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/c7/df/ca/c7dfcaecabc05ebbebe87fc8b2a37914.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/e1/f3/e7/e1f3e72b6e852236af347b3837da9d48.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/eb/03/a1/eb03a1f9ae745f66c28728ee70c55f3c.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/c7/df/ca/c7dfcaecabc05ebbebe87fc8b2a37914.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+        <img src="https://i.pinimg.com/736x/8d/c7/32/8dc7329a2d48c2a329ea3acaa25985f9.jpg" class="w-full mb-4 rounded-2xl break-inside-avoid object-cover" />
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

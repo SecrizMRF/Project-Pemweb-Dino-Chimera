@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medsos Sederhana | Post View</title>
+
+    <!-- Tailwind -->
+    <link href="../output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- HEADER -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-slate-200 shadow-md">
+      <div
+        class="flex flex-col sm:flex-row items-center justify-between px-4 sm:px-8 h-auto sm:h-[12vh] py-2 sm:py-0"
+      >
+        <!-- KIRI -->
+        <div class="flex items-center w-full sm:w-1/2 mb-3 sm:mb-0">
+          <a
+            class="text-3xl sm:text-5xl font-semibold pr-4 whitespace-nowrap"
+            href="#"
+            >Lorem</a
+          >
+
+          <div
+            class="relative flex items-center bg-gray-300 rounded-3xl h-[5.7vh] w-full sm:w-[17vw] overflow-hidden"
+          >
+            <i
+              class="fa-solid fa-magnifying-glass text-gray-600 pl-3 text-lg sm:text-xl"
+            ></i>
+            <input
+              type="text"
+              placeholder="Cari sesuatu..."
+              class="bg-transparent outline-none pl-3 pr-4 w-full text-gray-800 placeholder-gray-500 text-sm sm:text-base"
+            />
+          </div>
+        </div>
+
+        <!-- KANAN -->
+        <div class="flex w-full sm:w-1/2 justify-between sm:justify-end items-center">
+          <nav class="flex text-xl sm:text-3xl gap-4 sm:gap-6">
+            <a href="#">Lorem</a>
+            <a href="#">Lorem</a>
+            <a href="#">Lorem</a>
+            <a href="#">Lorem</a>
+          </nav>
+
+          <div class="pl-5">
+            <img
+              class="w-10 h-10 sm:w-[3vw] sm:h-[3vw] rounded-full object-cover"
+              src="../img/sidepic.jpg"
+              alt="hai"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ISI UTAMA -->
+<main class="px-3 sm:px-5 pt-[14vh] pb-10 flex justify-center">
+  <div
+    class="w-full sm:w-[80vw] lg:w-[56vw] flex flex-col lg:flex-row rounded-2xl overflow-hidden bg-white shadow-lg h-auto lg:h-[71vh]"
+  >
+    <!-- GAMBAR -->
+    <div
+      class="flex-shrink-0 flex justify-center items-center bg-black/5 w-full lg:w-[50%] h-[50vh] lg:h-full"
+    >
+      <img
+        src="https://i.pinimg.com/736x/e0/fb/86/e0fb868b4e8cad14cb60dc9a36f3abd8.jpg"
+        alt="post-image"
+        class="max-h-full max-w-full object-contain rounded-2xl"
+      />
+    </div>
+
+    <!-- DETAIL POST -->
+    <div
+      class="flex flex-col justify-between w-full lg:w-[50%] p-4 sm:p-6 
+             overflow-visible lg:overflow-y-auto"
+    >
+      <!-- PROFIL -->
+      <div class="flex items-center mb-4">
+        <img
+          class="w-10 h-10 sm:w-[3vw] sm:h-[3vw] rounded-full object-cover"
+          src="../img/sidepic.jpg"
+          alt="profile"
+        />
+        <div class="ml-3">
+          <p class="font-semibold text-base sm:text-lg leading-tight">
+            HamsterKecekik
+          </p>
+          <p class="text-xs sm:text-sm text-gray-700">@apipihamster101</p>
+        </div>
+      </div>
+
+      <!-- CAPTION -->
+      <div class="mb-4">
+        <p class="text-sm sm:text-base text-gray-800">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+          qui quasi numquam, molestias reprehenderit cumque voluptatibus.
+          Hic adipisci nisi eius exercitationem architecto autem ipsum natus
+          ullam recusandae quaerat explicabo excepturi.
+        </p>
+
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium">#akukece</span>
+          <span class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium">#turunkanregim</span>
+          <span class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium">#katamamgagabolehngakal</span>
+        </div>
+      </div>
+
+      <!-- AKSI -->
+      <div class="flex items-center justify-end mb-3 border-b border-gray-400 pb-2 space-x-4">
+        <i class="fa-regular fa-heart text-lg sm:text-xl cursor-pointer hover:text-red-500"></i>
+        <i class="fa-regular fa-comment text-lg sm:text-xl cursor-pointer hover:text-gray-600"></i>
+      </div>
+
+      <!-- KOMENTAR -->
+      <div class="flex flex-col gap-3 overflow-y-auto max-h-[25vh]">
+        <div class="flex items-start gap-2">
+          <img class="w-8 h-8 rounded-full object-cover" src="../img/sidepic.jpg" alt="pfp" />
+          <p class="text-sm"><span class="font-semibold">user1</span> woi hamster kecekik</p>
+        </div>
+        <div class="flex items-start gap-2">
+          <img class="w-8 h-8 rounded-full object-cover" src="../img/sidepic.jpg" alt="pfp" />
+          <p class="text-sm"><span class="font-semibold">user2</span> bagus banget kak &lt;3</p>
+        </div>
+        <div class="flex items-start gap-2">
+          <img class="w-8 h-8 rounded-full object-cover" src="../img/sidepic.jpg" alt="pfp" />
+          <p class="text-sm"><span class="font-semibold">user3</span> lorem ipsum juga tapi seberapa dolor sit amet kayak AEAO swipe face card can we get much higher</p>
+        </div>
+      </div>
+
+      <!-- INPUT KOMENTAR -->
+      <div class="mt-4 flex items-center bg-gray-200 rounded-full px-4 py-2">
+        <input
+          type="text"
+          placeholder="Your comment goes here..."
+          class="bg-transparent w-full outline-none text-sm text-gray-700 placeholder-gray-500"
+        />
+        <i class="fa-regular fa-paper-plane ml-3 text-gray-600 cursor-pointer hover:text-gray-800"></i>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+  </body>
+</html>
